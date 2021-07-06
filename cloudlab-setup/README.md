@@ -74,7 +74,6 @@ Switch to the tab List View. Now you will see the SSH command that you can use t
 ![plot](images/experiment_9.png)
 
 Use any SSH client (along with your private key) to connect to the Cloudlab node you just created. FPGA binaries and host executables can be created by running tools on MOC. You can copy these files from the MOC VM and execute them in your Coudlab node now. 
-```
 
 ## Useful links
 
