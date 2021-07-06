@@ -4,7 +4,7 @@ This tutorial includes instructions on how to create a virtual machine (VM) on M
 
 ## Prerequisites
 
-You are expected to have followed [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/main/mocsetup/account-setup-and-configuration.md) before getting started.
+You are expected to have followed [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md) before getting started.
 
 ## Steps
 
