@@ -16,7 +16,7 @@ Note: PuTTYGen is automatically installed with PuTTY.
 
 ### 1.1 Set up the private key
 
-Install PuTTY if you haven't already done so. By now, you should have the private key generated in step 3 of [this tutorial]https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md#3-create-an-ssh-key-pair).  Now, launch PuTTYgen and click Conversions &#8594; Import key, and select the private key that you have. This key should be a .pem file. 
+Install PuTTY if you haven't already done so. By now, you should have the private key generated in step 3 of [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md#3-create-an-ssh-key-pair).  Now, launch PuTTYgen and click Conversions &#8594; Import key, and select the private key that you have. This key should be a .pem file. 
 
 ![plot](images/puttygen_1.png)
 
