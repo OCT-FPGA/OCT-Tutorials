@@ -4,7 +4,7 @@ Follow these instructions to set up an account on Mass Open Cloud (MOC), set up 
 
 ## 1. Create an account
 
-If you already have an MOC account, skip to [Section 2](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
+If you already have an MOC account, skip to [Section 2](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md#2-log-in).
 
 To create an account, go to [massopen.cloud](https://massopen.cloud) and click USER RESOURCES &#8594; REQUEST A PROJECT. Enter your university login credentials. Then you will have to complete a form by entering the details about your project.
 
