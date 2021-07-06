@@ -1,10 +1,10 @@
 # Creating an MOC Account and Basic Configurations
 
-Follow these instructions to set up an account on Mass Open Cloud (MOC), set up key pairs, and configure ports for VNC and SSH access. These configurations are required for the virtual machine (VM) that you will create to do experiments with Xilinx tools. If you have already completed these steps, you may follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/main/mocsetup/instancesetup.md) to set up the VM.  
+Follow these instructions to set up an account on Mass Open Cloud (MOC), set up key pairs, and configure ports for VNC and SSH access. These configurations are required for the virtual machine (VM) that you will create to do experiments with Xilinx tools. If you have already completed these steps, you may follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/instancesetup.md) to set up the VM.  
 
 ## 1. Create an account
 
-If you already have an MOC account, skip to [Section 2](https://github.com/OCT-FPGA/OCT-Tutorials/blob/main/mocsetup/account-setup-and-configuration.md).
+If you already have an MOC account, skip to [Section 2](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
 
 To create an account, go to [massopen.cloud](https://massopen.cloud) and click USER RESOURCES &#8594; REQUEST A PROJECT. Enter your university login credentials. Then you will have to complete a form by entering the details about your project.
 
