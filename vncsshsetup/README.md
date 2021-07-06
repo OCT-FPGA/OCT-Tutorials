@@ -1,6 +1,6 @@
 # SSH and VNC Access for MOC (for Windows Users)
 
-Before you start, make sure that you have booted up an MOC compute instance (VM) according to the instructions given in [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/main/mocsetup/instancesetup.md). Follow these instructions to get access to the GUI of this instance.
+Before you start, make sure that you have booted up an MOC compute instance (VM) according to the instructions given in [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/instancesetup.md). Follow these instructions to get access to the GUI of this instance.
 
 ## Tools
 
