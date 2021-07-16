@@ -77,14 +77,13 @@ After boot up, the node will run the startup script which download and install r
 
 ![plot](images/post-boot-6.png)
 
-After running the script, the icon status will change to Finished.
+After running the script, the icon status will change to ```Finished```. Your experiment is ready now.
 
 ![plot](images/post-boot-7.png)
 
-![plot](images/post-boot-8.png)
-
 Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. 
 
+![plot](images/post-boot-8.png)
 
 ![plot](images/post-boot-9.png)
 
