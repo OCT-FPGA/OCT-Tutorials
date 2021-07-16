@@ -61,6 +61,8 @@ You can set the experiment duration now, or click Finish. The default is 16 hour
 
 ![plot](images/experiment_6.png)
 
+Optionally enter a name for the experiment and click Next.
+
 ![plot](images/post-boot-3.png)
 
 Now the Cloudlab instance will start to boot up.
