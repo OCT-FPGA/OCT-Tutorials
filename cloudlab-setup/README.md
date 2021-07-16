@@ -53,7 +53,7 @@ Click Next.
 
 ![plot](images/post-boot-1.png)
 
-Optionally enter a name for the experiment and click Next.
+You can parameterize the FPGA experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available options. 
 
 ![plot](images/post-boot-2.png)
 
@@ -63,7 +63,7 @@ You can set the experiment duration now, or click Finish. The default is 16 hour
 
 Now the Cloudlab instance will start to boot up.
 
-![plot](images/experiment_7.png)
+![plot](images/post-boot-4.png)
 
 Wait until you get the screen that says Your experiment is ready!.
 
