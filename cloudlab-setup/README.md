@@ -53,7 +53,7 @@ Click Next.
 
 ![plot](images/post-boot-1.png)
 
-You can customize the experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available options. In this tutorial we use 1 node. The tool version is 2020.1.1 and the OS is Ubuntu 18.04. 
+You can customize the experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available list of options. In this tutorial we use 1 node. The tool version is 2020.1.1 and the OS is Ubuntu 18.04. 
 
 ![plot](images/post-boot-2.png)
 
