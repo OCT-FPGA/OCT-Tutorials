@@ -73,6 +73,8 @@ Now, CloudLab will start provisioning cloud resources based on the parameters yo
 
 ![plot](images/post-boot-7.png)
 
+![plot](images/post-boot-8.png)
+
 Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. 
 
 
