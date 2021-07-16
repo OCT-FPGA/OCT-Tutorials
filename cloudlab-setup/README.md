@@ -73,7 +73,7 @@ The node will start to boot up.
 
 ![plot](images/post-boot-5.png)
 
-After boot up, the node will run the startup script which download and install run time tools. The node icon will show that the startup script is running.
+After boot up, the node will run the startup script which will download and install run time tools required to communicate with the FPGA. The node icon will show that the startup script is ```Running```.
 
 ![plot](images/post-boot-6.png)
 
