@@ -81,7 +81,7 @@ After running the script, the icon status will change to ```Finished```. Your ex
 
 ![plot](images/post-boot-7.png)
 
-Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. 
+Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. Use any SSH client to connect to the node. Alternatively you can select the Shell option in the UI which will open a shell.
 
 ![plot](images/post-boot-8.png)
 
