@@ -47,7 +47,7 @@ Select the profile and then select Experiments &#8594; Start Experiment.
 
 Click Change Profile and select the profile ```fpga-post-boot```.
 
-![plot](images/experiment_3.png)
+![plot](images/post-boot-0.png)
 
 Click Next.
 
