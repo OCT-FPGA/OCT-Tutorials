@@ -57,17 +57,15 @@ You can customize the experiment by parameterizing the setup. Enter the number o
 
 ![plot](images/post-boot-2.png)
 
-You can set the experiment duration now, or click Finish. The default is 16 hours. It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
-
 Optionally enter a name for the experiment and click Next.
 
 ![plot](images/post-boot-3.png)
 
-Click Finish.
+You can set the experiment duration now, or click Finish. The default is 16 hours. It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
 
 ![plot](images/experiment_6.png)
 
-Now the Cloudlab instance will start to boot up.
+Now the Cloudlab node will start to boot up.
 
 ![plot](images/post-boot-4.png)
 
