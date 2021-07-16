@@ -65,11 +65,11 @@ You can set the experiment duration now, or click Finish. The default is 16 hour
 
 ![plot](images/experiment_6.png)
 
-Now the Cloudlab node will start to boot up.
+Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
 
 ![plot](images/post-boot-4.png)
 
-Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
+Now the Cloudlab node will start to boot up.
 
 ![plot](images/post-boot-5.png)
 
