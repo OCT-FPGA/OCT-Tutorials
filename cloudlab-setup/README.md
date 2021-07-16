@@ -39,13 +39,13 @@ and entering your public key. Steps on how to create an SSH key-pair can be foun
 
 ## 2. Start an experiment
 
-Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```one-fpga-node``` for your reference. The profile uses Xilinx Run Time 2020.1.1 with an Ubuntu 18.04 disk image, and is configured to use any one of the eight FPGA servers in CloudLab Massachusetts site that are equipped with Alveo U280s. (It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
+Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```fpga-post-boot``` for your reference. This profile can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. (It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
 
 Select the profile and then select Experiments &#8594; Start Experiment.
 
 ![plot](images/experiment_1.png)
 
-Click Change Profile and select the profile ```one-fpga-node```.
+Click Change Profile and select the profile ```fpga-post-boot```.
 
 ![plot](images/experiment_3.png)
 
