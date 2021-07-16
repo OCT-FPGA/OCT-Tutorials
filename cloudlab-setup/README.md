@@ -65,13 +65,18 @@ Now the Cloudlab instance will start to boot up.
 
 ![plot](images/post-boot-4.png)
 
-Wait until you get the screen that says Your experiment is ready!.
+Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
 
-![plot](images/experiment_8.png)
+![plot](images/post-boot-5.png)
+
+![plot](images/post-boot-6.png)
+
+![plot](images/post-boot-7.png)
 
 Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. 
 
-![plot](images/experiment_9.png)
+
+![plot](images/post-boot-9.png)
 
 Use any SSH client (along with your private key) to connect to the Cloudlab node you just created. FPGA binaries and host executables can be created by running tools on MOC. You can copy these files from the MOC VM and execute them in your Coudlab node now. 
 
