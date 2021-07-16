@@ -39,9 +39,9 @@ and entering your public key. Steps on how to create an SSH key-pair can be foun
 
 ## 2. Start an experiment
 
-Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```fpga-post-boot``` for your reference. This profile can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. (It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
+Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```fpga-post-boot``` for your reference. This profile can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
 
-Select the profile and then select Experiments &#8594; Start Experiment.
+Select Experiments &#8594; Start Experiment.
 
 ![plot](images/experiment_1.png)
 
@@ -53,7 +53,7 @@ Click Next.
 
 ![plot](images/post-boot-1.png)
 
-You can parameterize the FPGA experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available options. 
+You can customize the experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available options. In this tutorial we use 1 node. The tool version is 2020.1.1 and the OS is Ubuntu 18.04. 
 
 ![plot](images/post-boot-2.png)
 
