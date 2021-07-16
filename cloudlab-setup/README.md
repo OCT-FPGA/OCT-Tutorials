@@ -53,7 +53,7 @@ Click Next.
 
 ![plot](images/experiment_4.png)
 
-Optionally enter a profile name and click Next.
+Optionally enter a name for the experiment and click Next.
 
 ![plot](images/experiment_5.png)
 
