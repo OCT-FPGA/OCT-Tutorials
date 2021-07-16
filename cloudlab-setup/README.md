@@ -69,9 +69,11 @@ Now, CloudLab will start provisioning cloud resources based on the parameters yo
 
 ![plot](images/post-boot-4.png)
 
-Now the Cloudlab node will start to boot up.
+The node will start to boot up.
 
 ![plot](images/post-boot-5.png)
+
+
 
 ![plot](images/post-boot-6.png)
 
