@@ -55,5 +55,5 @@ and allocate an IP from the pool.
 
 Your VM can now be accessed over the internet using any SSH client like PuTTY. The user name is ubuntu.
 
-You can also set up a VNC server and a client for GUI access. These instructions can be found [here](https://github.com/OCT-FPGA/OCT-Tutorials/blob/main/vncsshsetup/README.md
+You can also set up a VNC server and a client for GUI access. These instructions can be found [here](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/vncsshsetup/README.md
 ). 
