@@ -39,41 +39,56 @@ and entering your public key. Steps on how to create an SSH key-pair can be foun
 
 ## 2. Start an experiment
 
-Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```one-fpga-node``` for your reference. The profile uses Xilinx Run Time 2020.1.1 with an Ubuntu 18.04 disk image, and is configured to use any one of the eight FPGA servers in CloudLab Massachusetts site that are equipped with Alveo U280s. It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
+Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```fpga-post-boot``` for your reference. This profile can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
 
 Select Experiments &#8594; Start Experiment.
 
 ![plot](images/experiment_1.png)
 
-Click Change Profile and select the profile ```one-fpga-node```.
+Click Change Profile and select the profile ```fpga-post-boot```.
 
-![plot](images/experiment_3.png)
+![plot](images/post-boot-0.png)
 
 Click Next.
 
-![plot](images/experiment_4.png)
+![plot](images/post-boot-1.png)
+
+You can customize the experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available list of options. In this tutorial we use 1 node. The tool version is 2020.1.1 and the OS is Ubuntu 18.04. 
+
+![plot](images/post-boot-2.png)
 
 Optionally enter a name for the experiment and click Next.
 
-![plot](images/experiment_5.png)
+![plot](images/post-boot-3.png)
 
 You can set the experiment duration now, or click Finish. The default is 16 hours. It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
 
 ![plot](images/experiment_6.png)
 
-Now the Cloudlab instance will start to boot up.
+Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
 
-![plot](images/experiment_7.png)
+![plot](images/post-boot-4.png)
 
-Wait until you get the screen that says Your experiment is ready!.
+The node will start to boot up.
 
-![plot](images/experiment_8.png)
+![plot](images/post-boot-5.png)
 
-Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. 
+After boot up, the node will run the startup script which will download and install run time tools required to communicate with the FPGA. The node icon will show that the startup script is ```Running```.
 
-![plot](images/experiment_9.png)
+![plot](images/post-boot-6.png)
 
-Use any SSH client (along with your private key) to connect to the Cloudlab node you just created. FPGA binaries and host executables can be created by running tools on MOC. You can copy these files from the MOC VM and execute them in your Coudlab node now. 
+After running the script, the icon status will change to ```Finished```. Your experiment is ready now.
+
+![plot](images/post-boot-7.png)
+
+Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. Use any SSH client to connect to the node. Alternatively you can select the Shell option in the UI which will open a shell.
+
+![plot](images/post-boot-8.png)
+
+You can run your experiment now.
+
+![plot](images/post-boot-9.png)
+
 
 ## Useful links
 
