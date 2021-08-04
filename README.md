@@ -2,8 +2,8 @@
 
 ## Standalone FPGA experiment workflow
 
-1. Develop applications in MOC. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
-2. Build a bitstream and host executable.
+1. Create a VM in MOC to develop applications. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
+2. Build a bitstream and a host executable.
 3. Set up a CloudLab node. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/README.md). 
 4. Copy the bitstream and executable to the CloudLab node.
 5. Run the application.
