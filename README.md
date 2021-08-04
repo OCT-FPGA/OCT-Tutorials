@@ -8,7 +8,7 @@
 4. Copy the bitstream and executable to the CloudLab node.
 5. Run the application.
 
-An example is given [here]( An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/blob/master/Getting_Started/vitis-getting-started-moc.md)).
+An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/blob/master/Getting_Started/vitis-getting-started-moc.md).
 
 ## Network-attached FPGA experiment workflow
 To be added.
