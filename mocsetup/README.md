@@ -6,7 +6,7 @@ If you don't have an MOC account follow the steps in [this tutorial](https://git
 
 ## Users who haven't created a VM
 
-If you haven't created a VM, follow [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/instancecleanup.md).
+If you haven't created a VM, follow [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/instancesetup.md).
 
 ## Users who have created a VM
 
