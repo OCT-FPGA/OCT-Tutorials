@@ -13,3 +13,5 @@ An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/blob
 ## Network-attached FPGA experiment workflow
 
 Follow the stand-alone workflow. The only difference is, select two or more FPGA nodes when you parameterize the experiment in Step 3. 
+
+An example is given [here](https://github.com/OCT-FPGA/network-demo)
