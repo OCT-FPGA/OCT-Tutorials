@@ -1,6 +1,6 @@
 # Getting Started
 
-## Standalone FPGA experiment workflow
+## Stand-alone FPGA experiment workflow
 
 1. Create a VM in MOC to develop applications. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
 2. Build a bitstream and a host executable.
@@ -11,4 +11,5 @@
 An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/blob/master/Getting_Started/vitis-getting-started-moc.md).
 
 ## Network-attached FPGA experiment workflow
-To be added.
+
+Follow the stand-alone workflow. The only difference is, select two or more FPGA nodes when you parameterize the experiment in Step 3. 
