@@ -2,17 +2,6 @@
 
 **Issue**
 
-When trying to build the software application, you may get the following error.
-
-```bash
-fatal error: CL/cl2.hpp: No such file or directory
-```
-**Fix**
-
-Install OpenCL headers by running ```sudo apt install opencl-headers``` and then re-run the build command.
-
-**Issue**
-
 You get the following warning when trying to clone a repository.
 
 Basic authentication using a password to Git is deprecated and will soon no longer work. Visit https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information around suggested workarounds and removal dates."
