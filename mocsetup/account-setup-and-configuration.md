@@ -10,7 +10,7 @@ To create an account, go to [massopen.cloud](https://massopen.cloud) and click U
 
 ![plot](images/1_moc_project.png)
 
-MOC contact should be the name of the PI you are working with. Fill out and submit the form. 
+MOC contact: Suranga Handagala. Fill out and submit the form. 
 
 Once your request got the approval (typically this will take up to two business days) you will be able to create your own virtual machine (VM) and start using Vitis tools. 
 
