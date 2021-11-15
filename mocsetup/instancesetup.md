@@ -4,7 +4,7 @@ This tutorial includes instructions on how to create a virtual machine (VM) on M
 
 ## Prerequisites
 
-You are expected to have followed [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md) before getting started.
+You are expected to have followed [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md) before getting started. For Alveo development, it is recommended to have at least 64 GB of RAM (80 GB recommended). By default, the RAM quota of MOC is 64 GB. If you need more RAM, you should submit a request for a quota increase and have your RAM quota updated. Submit your request [here](https://docs.google.com/forms/d/e/1FAIpQLSf-lk3XmFqVA2hVBGOGUXeFF8av9oXwJdLF3jA2409msFEriQ/viewform)
 
 ## Steps
 
@@ -23,6 +23,7 @@ Select boot source as Image and pick a Vitis images from the available list of i
 ```bash
 vitis-2020.1-ubuntu-18.04
 vitis-2020.2-ubuntu-18.04
+vitis-2021.1
 ```
 Click Next.
 
