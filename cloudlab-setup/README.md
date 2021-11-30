@@ -57,7 +57,7 @@ You can customize the experiment by parameterizing the setup. Enter the number o
 
 ![plot](images/post-boot-2.png)
 
-Optionally enter a name for the experiment and click Next.
+Optionally, enter a name for the experiment. If you are a member of multiple CloudLab projects, select the project "OCTFPGA". If you are a member of "OCTFPGA" only, then you will not see the project name as shown. This won't be an issue. Click Next.
 
 ![plot](images/post-boot-3.png)
 
