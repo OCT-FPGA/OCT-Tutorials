@@ -6,7 +6,7 @@ The Open Cloud Testbed (OCT) workflow consists of two parts.
 OCT development tools are hosted in Massachusetts Open Cloud (MOC). Users can sign up for an MOC account and build FPGA bitstreams/host executables using the tools.
 ![plot](images/moc_workflow.png)
 **2. Deployment:**
-After creating the bitstreams/host executables, users will use CloudLab for targeting.
+After creating the bitstreams/host executables, users will use CloudLab for targeting. There are eight Alveo U280s in CloudLab Massachusetts cluster which are PCIe connected to eight host machines. The U280s are connected to a 100 GbE data center switch using 100G QSFP28 passive DAC cables. 
 ![plot](images/cloudlab_setup.png)
 
 ## Stand-alone FPGA experiment workflow
