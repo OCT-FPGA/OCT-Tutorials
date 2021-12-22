@@ -1,5 +1,14 @@
 # Getting Started
 
+The Open Cloud Testbed (OCT) workflow consists of two parts.
+
+1. Development 
+OCT development tools are hosted in Massachusetts Open Cloud (MOC). Users can sign up for an MOC account and build FPGA bitstreams/host executables using the tools.
+![plot](images/moc_workflow.png)
+2. Deployment
+After creating the bitstreams/host executables, users will use CloudLab for targeting.
+![plot](images/cloudlab_setup.png)
+
 ## Stand-alone FPGA experiment workflow
 
 1. Create a VM in MOC to develop applications. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
