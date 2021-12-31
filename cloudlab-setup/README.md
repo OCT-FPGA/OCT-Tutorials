@@ -36,8 +36,11 @@ and entering your public key. Steps on how to create an SSH key-pair can be foun
 
 ![plot](images/existing-account_4.png)
 
-
 ## 2. Start an experiment
+
+Note: Before you start an experiment, make sure that your default shell is set to bash. To do this, click on your name in the upper right, select Manage Account, and then set the Default Shell to bash and click Save.
+
+![plot](images/manage_account.png)
 
 Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```fpga-post-boot``` for your reference. This profile can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
 
