@@ -19,8 +19,12 @@ If successfully patched, you should see a list of messages similar to the follow
 `
 [2022-02-14] INFO: This script (version: 1.2) patches Xilinx Tools for HLS Y2k22 bug for the following release: 
 2014.*, 2015.*, 2016.*, 2017.*, 2018.*, 2019.*, 2020.* and 2021.*
+
 [2022-02-14] UPDATE: /tools/Xilinx/Vivado/2020.1/common/scripts
+
 [2022-02-14] COPY: /tools/Xilinx/y2k22_patch/automg_patch_20220104.tcl  to /tools/Xilinx/Vivado/2020.1/common/scripts/automg_patch_20220104.tcl 
+
 [2022-02-14] UPDATE: /tools/Xilinx/Vitis/2020.1/common/scripts
+
 [2022-02-14] COPY: /tools/Xilinx/y2k22_patch/automg_patch_20220104.tcl  to /tools/Xilinx/Vitis/2020.1/common/scripts/automg_patch_20220104.tcl 
 `
