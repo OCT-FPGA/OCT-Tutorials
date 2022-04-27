@@ -1,6 +1,6 @@
 # Applying the Patch for Xilinx Revision Number Overflow Issue (Y2K22)
 
-The revision number overflow issue may cause build errors when trying to export certain IPs. Xilinx has created a patch which should be downloaded and installed in order to overcome this issue.
+The revision number overflow issue may cause build errors when trying to export certain IPs. Xilinx has created a [patch](https://support.xilinx.com/s/article/76960) which should be downloaded and installed in order to overcome this issue.
 
 ## Steps
 
