@@ -11,13 +11,13 @@ After creating the bitstreams/host executables, users will use CloudLab for targ
 
 ## Stand-alone FPGA experiment workflow
 
-1. Create a VM in MOC to develop applications. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/mocsetup/account-setup-and-configuration.md).
+1. Create a VM in MOC to develop applications. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/moc-cloudlab/mocsetup/account-setup-and-configuration.md).
 2. Build a bitstream and a host executable.
-3. Set up a CloudLab node. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/README.md). 
+3. Set up a CloudLab node. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/moc-cloudlab/cloudlab-setup/README.md). 
 4. Copy the bitstream and executable to the CloudLab node.
 5. Run the application.
 
-An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/blob/master/Getting_Started/vitis-getting-started-moc.md).
+An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/blob/moc-cloudlab/Getting_Started/vitis-getting-started-moc.md).
 
 ## Network-attached FPGA experiment workflow
 
