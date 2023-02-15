@@ -12,7 +12,7 @@ After creating the bitstreams/host executables, users will use CloudLab for targ
 
 ## Stand-alone FPGA experiment workflow
 
-1. Log into your account on the NERC VM to develop applications. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/nercsetup/nerc-vm-guide.md).
+1. Log into your account on the NERC VM to develop applications (or use your own build machine). Follow [these instructions] if you decided to use the VM on NERC(https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/nercsetup/nerc-vm-guide.md).
 2. Build a bitstream and a host executable.
 3. Set up a CloudLab node. Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/README.md). 
 4. Copy the bitstream and executable to the CloudLab node.
