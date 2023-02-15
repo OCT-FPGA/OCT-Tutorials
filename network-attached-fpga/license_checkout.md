@@ -1,9 +1,9 @@
 # How to Check Out Xilinx Floating License for CMAC
 
-Before you start to build the bitstream, run the following command
+Before you start to build the bitstream, run the following command.
 
 ```bash
-export XILINXD_LICENSE_FILE=2100@xilinxlicense.massopen.cloud 
+export XILINXD_LICENSE_FILE=2100@192.168.0.54
 ```
 To verify that the license is checked out, run ```vlm``` and see if the CMAC license is present.
 
