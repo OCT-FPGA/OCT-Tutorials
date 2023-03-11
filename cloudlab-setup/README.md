@@ -12,7 +12,7 @@ Go to [cloudlab.us](https://cloudlab.us) and click Request an Account.
 
 ![plot](images/new_account_1.png)
 
-Enter your details. You need to provide an SSH public key. Make sure you have access to the corresponding private key which you will need to log in to the Cloudlab server. For specific instructions on how to create a key-pair and access your CloudLab node using either MOC or your home/work computer, please refer to [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/managing-keys/setup-keys.md). Select Join Existing Project, enter ```OCTFPGA``` and submit the request.
+Enter your details. You need to provide an SSH public key. Make sure you have access to the corresponding private key which you will need to log in to the Cloudlab server. For specific instructions on how to create a key-pair and access your CloudLab node using either MOC or your home/work computer, please refer to [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/managing-keys/setup-keys.md). Select Join Existing Project, enter ```OCTFPGA``` and submit the request. Note: P4/SmartNIC users planning to use Vivado custom workflow for programming the FPGAs, should join the project OCT-FPGA-P4 instead.
 
 ![plot](images/new_account_2.png)
 
