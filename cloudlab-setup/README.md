@@ -60,7 +60,8 @@ You can customize the experiment by parameterizing the setup. Enter the number o
 
 ![plot](images/post-boot-2.png)
 
-Optionally, enter a name for the experiment. If you are a member of multiple CloudLab projects, select the project "OCTFPGA". If you are a member of "OCTFPGA" only, then you will not see the project name as shown. This won't be an issue. Click Next.
+If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. However, if you are solely a member of the OCTFPGA project, you might not have the option to select it here. Optionally, enter a name for the experiment and click Next.
+
 
 ![plot](images/post-boot-3.png)
 
