@@ -18,7 +18,7 @@ After creating the bitstreams/host executables, users will use CloudLab for targ
 4. Copy the bitstream and executable to the CloudLab node.
 5. Run the application.
 
-An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/tree/moc-cloudlab/VitisAccelHelloWorld).
+An example is given [here](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/tree/2022.2/VitisAccelHelloWorld).
 
 ## Network-attached FPGA experiment workflow
 
