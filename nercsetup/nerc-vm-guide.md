@@ -1,6 +1,6 @@
 # NERC VM User Guide
 
-*If you don't already have a user account on the VM, please send an email to s.handagala@northeastern.edu by including 1. your full name, 2. preferred username, 3. SSH public key, and 4. a brief description of the project.*
+*If you don't already have a user account on the VM, please send an email to s.handagala@northeastern.edu by including 1. your full name, 2. preferred username, 3. SSH public key, and 4. your advisor's name. 5. a brief description of the project.*
 
 This guide walks you through the steps for connecting to a virtual machine (VM) on New England Research Cloud (NERC) that will allow you to build FPGA bitstreams and host applications that run on Alveo U280s in CloudLab. We call this VM the **build server**. This server is not connected to the public internet. The only way for FPGA users to access the build server is via a **bastion host** which has a public IP address.
 
