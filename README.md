@@ -10,6 +10,10 @@ After creating the bitstreams/host executables, users will use CloudLab for targ
 
 ![plot](images/oct-setup.jpeg)
 
+Currently, OCT has 12xU280s that come with the deployment target platform (xilinx_u280_gen3x16_xdma) provided by Xilinx. This is the communication layer physically implemented into the card. Users will use the Xilinx Vitis workflow to generate a partial bitstream (.xclbin) and program the user partition of the FPGA. 
+
+For host-to-FPGA communication, we use Xilinx Runtime (XRT). XRT includes drivers and API functions to communicate with the U280 card and the FPGA. When a user starts an experiment in OCT, XRT is automatically installed on the host node as part of a post-boot script. Once the host node is finished booting up, users can use XRT's API functions to perform tasks like loading the bitstream, reading/writing device registers, initiating memory transfers, etc.  Typically, a host program written in C++ or Python is used for this. Manual installation of XRT drivers is not required.
+
 ## Stand-alone FPGA experiment workflow
 
 1. Log into your account on the NERC VM to develop applications (or use your own build machine). Follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/nercsetup/nerc-vm-guide.md) if you decided to use the VM on NERC.
