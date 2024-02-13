@@ -48,18 +48,18 @@ Save the file and exit the text editor.
 8. Kill the vncserver instance that you just created by running ````vncserver -kill :<vnc port number>````.
 ![plot](images/vnc_kill.png)-->
 
-9. Start a new VNC server instance with your preferred port number and screen resolution.
+6. Start a new VNC server instance with your preferred port number and screen resolution.
 Example: Create a VNC server instance with a resolution of 1920x1080 and port number 5905: ````vncserver -localhost no -geometry 1920x1080 :5````
 ![plot](images/vnc_instance.png)
 This will create a VNC server instance listening on port 5905.
 
-10. Now, right click the session that you just created and click **Edit session**.
+7. Now, right click the session that you just created and click **Edit session**.
 ![plot](images/vnc_edit.png)
 
-11. Enter the VNC session information and click **OK**.
+8. Enter the VNC session information and click **OK**.
 ![plot](images/vnc_enter_info.png)
 
-12. Double click the session (Notice that the icon of your session has changed. You will now be able to access the graphical desktop of the build server as shown below.
+9. Double click the session (Notice that the icon of your session has changed. You will now be able to access the graphical desktop of the build server as shown below.
 ![plot](images/setup_done.png)
 The setup is complete now. Xilinx tools can be found in ````/tools/Xilinx````.
 
