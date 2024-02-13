@@ -27,7 +27,7 @@ The IP address of the bastion host is 199.94.60.18. Enter your user name, select
 ![plot](images/config_done.png)
 Your SSH session will automatically open now. 
 
-6. You may now create a VNC server instance on the VM. Run the command ````vncserver````.
+<!-- 6. You may now create a VNC server instance on the VM. Run the command ````vncserver````.
 ![plot](images/vnc_shell.png)
 
 7. Now create a VNC startup configuration file named xstartup in ````<your home directory>/.vnc/````. Run the following command
@@ -46,7 +46,7 @@ dbus-launch --exit-with-session gnome-session &
 Save the file and exit the text editor.
 
 8. Kill the vncserver instance that you just created by running ````vncserver -kill :<vnc port number>````.
-![plot](images/vnc_kill.png)
+![plot](images/vnc_kill.png)-->
 
 9. Start a new VNC server instance with your preferred port number and screen resolution.
 Example: Create a VNC server instance with a resolution of 1920x1080 and port number 5905: ````vncserver -localhost no -geometry 1920x1080 :5````
