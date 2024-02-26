@@ -71,25 +71,25 @@ You can set the experiment duration now, or click Finish. The default is 16 hour
 
 Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
 
-![plot](images/post-boot-4.png)
+![plot](images/pb-5.png)
 
 The node will start to boot up.
 
-![plot](images/post-boot-5.png)
+![plot](images/pb-6.png)
 
 After boot up, the node will run the startup script which will download and install run time tools required to communicate with the FPGA. The node icon will show that the startup script is ```Running```.
 
-![plot](images/post-boot-6.png)
+![plot](images/pb-7.png)
 
 After running the script, the icon status will change to ```Finished```. Your experiment is ready now.
 
-![plot](images/post-boot-7.png)
+![plot](images/pb-8.png)
 
 Switch to the tab List View. Now you will see the SSH command that you can use to conect to this server. Use any SSH client to connect to the node. Alternatively you can select the Shell option in the UI which will open a shell.
 
-![plot](images/post-boot-8.png)
+![plot](images/pb-9.png)
 
-You can run your experiment now.
+Your experiment is ready now.
 
 ![plot](images/post-boot-9.png)
 
