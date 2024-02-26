@@ -54,16 +54,16 @@ Click Change Profile and select the profile ```oct-u280```.
 
 Click Next.
 
-![plot](images/post-boot-1.png)
+![plot](images/pb-1.png)
 
-You can customize the experiment by parameterizing the setup. Enter the number of nodes, a tool version, and an OS from the available list of options. In this tutorial we use 1 node. The tool version is 2020.1.1 and the OS is Ubuntu 18.04. 
+You can customize the experiment by parameterizing the setup. Enter the name of the required node, a tool version, and the OS from the list of options. 
 
-![plot](images/post-boot-2.png)
+![plot](images/pb-2.png)
 
 If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. However, if you are solely a member of the OCTFPGA project, you might not have the option to select it here. Optionally, enter a name for the experiment and click Next.
 
 
-![plot](images/post-boot-3.png)
+![plot](images/pb-3.png)
 
 You can set the experiment duration now, or click Finish. The default is 16 hours. It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
 
