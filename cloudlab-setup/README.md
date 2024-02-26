@@ -91,7 +91,7 @@ Switch to the tab List View. Now you will see the SSH command that you can use t
 
 Your experiment is ready now.
 
-![plot](images/post-boot-9.png)
+![plot](images/pb-10.png)
 
 
 ## Useful links
