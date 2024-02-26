@@ -1,4 +1,4 @@
-# Configure the experimental setup for the OCT U280 FPGAs
+# Experimental setup for the OCT U280 FPGAs
 
 The CloudLab Umass cluster has 8 nodes, each of which hosts an Alveo U280 FPGA accelerator card. You need to create a CloudLab experiment to access any of these FPGAs. An experiment will give you access to a bare-metal node. By using an experiment profile, you can configure this node so that it will have the tools required to access the FPGA.  If you are not familiar with the CloudLab experiment workflow, it is strongly recommended to refer to [The CloudLab Manual](http://docs.cloudlab.us/) before getting started.
 
