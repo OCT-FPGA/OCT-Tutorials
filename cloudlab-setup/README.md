@@ -67,7 +67,7 @@ If you are involved in multiple CloudLab projects, you will be required to choos
 
 You can set the experiment duration now, or click Finish. The default is 16 hours. It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
 
-![plot](images/experiment_6.png)
+![plot](images/pb-4.png)
 
 Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
 
