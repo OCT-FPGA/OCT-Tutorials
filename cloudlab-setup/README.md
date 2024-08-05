@@ -58,7 +58,7 @@ Click Next.
 
 You can customize the experiment by parameterizing the setup. Enter the name of the required node, a tool version, and the OS from the list of options. 
 
-![plot](images/pb-2.png)
+![plot](images/pb-2_1.png)
 
 If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. Optionally, enter a name for the experiment and click Next.
 
