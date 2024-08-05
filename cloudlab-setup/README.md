@@ -42,13 +42,13 @@ Note: Before you start an experiment, make sure that your default shell is set t
 
 ![plot](images/manage_account.png)
 
-Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```oct-u280``` for your reference. P4/SmartNIC users should use the profile ```oct-p4```. This profile can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
+Now you need to select or create an experiment profile. For FPGA experiments, we have created the profile ```oct-u280``` which can be used to boot up either an Ubuntu or CentOS image and install run-time tools automatically by running a post-boot script in the background. It is also possible to create your own profiles. To learn how to do this, please refer to [The Cloudlab Manual](http://docs.cloudlab.us/).
 
 Select Experiments &#8594; Start Experiment.
 
 ![plot](images/experiment_1.png)
 
-Click Change Profile and select the profile ```oct-u280``` (or ```oct-p4``` for P4/SmartNIC flow).
+Click Change Profile and select the profile ```oct-u280```.
 
 ![plot](images/pb-0.png)
 
@@ -60,7 +60,7 @@ You can customize the experiment by parameterizing the setup. Enter the name of 
 
 ![plot](images/pb-2.png)
 
-If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. However, if you are solely a member of the OCTFPGA project, you might not have the option to select it here. Optionally, enter a name for the experiment and click Next.
+If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. Optionally, enter a name for the experiment and click Next.
 
 
 ![plot](images/pb-3.png)
