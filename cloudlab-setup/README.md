@@ -60,7 +60,7 @@ You can customize the experiment by parameterizing the setup. Enter the name of 
 
 ![plot](images/pb-2_1.png)
 
-If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. Optionally, enter a name for the experiment and click Next.
+Optionally, enter a name for the experiment and click Next.
 
 ![plot](images/pb-3.png)
 
