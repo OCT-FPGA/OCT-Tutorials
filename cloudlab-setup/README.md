@@ -56,12 +56,11 @@ Click Next.
 
 ![plot](images/pb-1.png)
 
-You can customize the experiment by parameterizing the setup. Enter the name of the required node, a tool version, and the OS from the list of options. 
+You can customize the experiment by parameterizing the setup. Enter the name of the required node, a tool version, and the OS from the list of options. For workflow, choose Vitis if you plan to use the Vitis application acceleration workflow. If you plan to use the traditional flow, choose Vivado.
 
 ![plot](images/pb-2_1.png)
 
 If you are involved in multiple CloudLab projects, you will be required to choose the OCTFPGA project in Step 3. Optionally, enter a name for the experiment and click Next.
-
 
 ![plot](images/pb-3.png)
 
