@@ -8,7 +8,7 @@ OCT development tools are hosted on a virtual machine (VM) in New England Resear
 **2. Deployment:**
 After creating the bitstreams/host executables, users will use CloudLab for targeting. There are sixteen Alveo U280s in CloudLab Massachusetts cluster which are PCIe connected to sixteen host machines. These U280s are connected to 100 GbE data center switches using QSFP28 passive DAC cables. Four of the sixteen nodes have 100 GbE NICs installed. Another four have been allocated for a P4-enabled SmartNIC testbed.
 
-![plot](images/oct-setup.jpeg)
+![plot](images/oct.jpg)
 
 Currently, OCT has 12xU280s that come with the deployment target platform (xilinx_u280_gen3x16_xdma) provided by Xilinx. This is the communication layer physically implemented into the card. Users will use the Xilinx Vitis workflow to generate a partial bitstream (.xclbin) and program the user partition of the FPGA. 
 
