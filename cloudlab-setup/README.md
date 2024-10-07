@@ -12,15 +12,15 @@ Go to [cloudlab.us](https://cloudlab.us) and click Request an Account.
 
 ![plot](images/new_account_1.png)
 
-Enter your details. You need to provide an SSH public key. Make sure you have access to the corresponding private key which you will need to log in to the Cloudlab server. For specific instructions on how to create a key-pair and access your CloudLab node using either MOC or your home/work computer, please refer to [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/managing-keys/setup-keys.md). Select Join Existing Project, enter ```OCTFPGA``` and submit the request. 
+Enter your details. You need to provide an SSH public key. Make sure you have access to the corresponding private key which you will need to log in to the Cloudlab server. For specific instructions on how to create a key-pair and access your CloudLab node using either MOC or your home/work computer, please refer to [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/managing-keys/setup-keys.md). Select Join Existing Project, enter ```OCTFPGA``` and submit the request.
 
 ![plot](images/new_account_2.png)
 
-The account approval process could take a couple of days. Once you got the approval, go to step 2. 
+The account approval process could take a couple of days. Once you got the approval, go to step 2.
 
 ### 1.2. Existing users
 
-If you already have a Cloudlab account, first log into your account and select Start/Join Project. 
+If you already have a Cloudlab account, first log into your account and select Start/Join Project.
 
 ![plot](images/existing-account_1.png)
 
@@ -28,11 +28,11 @@ Enter the project name ```OCTFPGA``` and click Submit Request.
 
 ![plot](images/existing-account_2.png)
 
-As an existing user, you should already have a key-pair which you need to remotely access a CloudLab node. If you need to upload a different public key, you may do so by going to "your user name" &#8594; Manage SSH Keys, 
-  
+As an existing user, you should already have a key-pair which you need to remotely access a CloudLab node. If you need to upload a different public key, you may do so by going to "your user name" &#8594; Manage SSH Keys,
+
 ![plot](images/existing-account_3.png)
-  
-and entering your public key. Steps on how to create an SSH key-pair can be found [here](https://github.com/OCT-FPGA/oct-tutorials/blob/main/managing-keys/setup-keys.md).
+
+and entering your public key. Steps on how to create an SSH key-pair can be found [here](/managing-keys/setup-keys.md).
 
 ![plot](images/existing-account_4.png)
 
@@ -64,11 +64,18 @@ Optionally, enter a name for the experiment and click Next.
 
 ![plot](images/pb-3.png)
 
-You can set the experiment duration now, or click Finish. The default is 16 hours. It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
+You can set the experiment duration now, or click Finish.
+
+> [!WARNING]
+> The default is duration is 16 hours.
+> Please instead set the duration to __1 hour__ just in case you forget to terminate the experiment and release the node.
+
+
+It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
 
 ![plot](images/pb-4.png)
 
-Now, CloudLab will start provisioning cloud resources based on the parameters you specified. 
+Now, CloudLab will start provisioning cloud resources based on the parameters you specified.
 
 ![plot](images/pb-5.png)
 
