@@ -12,6 +12,13 @@ After creating the bitstreams/host executables, users will use CloudLab for targ
 
 ![plot](images/oct-arch.jpg)
 
+| Hardware | Nodes          |
+|----------|----------------|
+| U280     | pc151-pc175    |
+| VCK5000  | pc176-pc179    |
+| V70      | pc180-pc183    |
+| V100     | pc178-pc179    |
+
 We have created the CloudLab profiles ```oct-u280```, ```oct-vck5000```, and ```oct-v70``` to help users select nodes with the specific resources they need. You can find instructions for using CloudLab for OCT experiments [here](https://github.com/OCT-FPGA/OCT-Tutorials/tree/master/cloudlab-setup).
 
 ## U280 Tutorials
