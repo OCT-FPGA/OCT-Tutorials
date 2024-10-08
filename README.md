@@ -10,7 +10,7 @@ If you’d like to use the build machines we provide, please follow [these instr
 **2. Deployment:**
 After creating the bitstreams/host executables, users will use CloudLab for targeting. OCT currently consists of 24 AMD Alveo U280s, 4 AMD VCK5000s, 4 AMD V70s, and 2 NVIDIA V100 GPUs. The U280s and VCK5000s are connected to 100 GbE data center switches using QSFP28 passive DAC cables. 
 
-![plot](images/oct.jpg)
+![plot](images/oct-arch.jpg)
 
 We have created the CloudLab profiles ```oct-u280```, ```oct-vck5000```, and ```oct-v70``` to help users select nodes with the specific resources they need.
 
