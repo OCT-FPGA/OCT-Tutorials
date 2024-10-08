@@ -12,6 +12,8 @@ After creating the bitstreams/host executables, users will use CloudLab for targ
 
 ![plot](images/oct-arch.jpg)
 
+The table below shows the hardware available in OCT along with the host nodes.
+
 | Hardware | Nodes          |
 |----------|----------------|
 | U280     | pc151-pc175    |
