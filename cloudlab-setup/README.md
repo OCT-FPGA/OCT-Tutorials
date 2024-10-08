@@ -66,11 +66,6 @@ Optionally, enter a name for the experiment and click Next.
 
 You can set the experiment duration now, or click Finish.
 
-> [!WARNING]
-> The default is duration is 16 hours.
-> Please instead set the duration to __1 hour__ just in case you forget to terminate the experiment and release the node.
-
-
 It is important to keep in mind that after 16 hours, everything you have done in this experiment will be wiped out from your node. Therefore, ensure that you complete the experiment by then and save the experiment outputs in a persistent storage.
 
 ![plot](images/pb-4.png)
