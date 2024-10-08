@@ -17,9 +17,11 @@ We have created the CloudLab profiles ```oct-u280```, ```oct-vck5000```, and ```
 ## U280 Tutorials
 
 [Vector Addition](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/tree/2022.2/VitisAccelHelloWorld)
+
 [UDP Network Demo](https://github.com/OCT-FPGA/udp-network-demo)
 
 ## Versal Tutorials (VCK5000 and V70)
 
 [Getting Started with V70s](https://github.com/OCT-FPGA/versal-tutorials/blob/main/v70-getting-started.md)
+
 [Getting started with VCK5000s](https://github.com/OCT-FPGA/versal-tutorials/blob/main/vck5000-getting-started.md)
