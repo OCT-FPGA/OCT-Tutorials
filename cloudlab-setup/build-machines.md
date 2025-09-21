@@ -31,6 +31,9 @@ After the node finishes booting, the startup services will launch. This installs
 Once the startup services are complete, a checkmark will appear on the node icon. After that, you can log into the node. You’ll also see the SSH command you need to use to access it.
 ![plot](images/bm-10.png)
 
+
+![plot](images/bm-11.png)
+
 Add this information to your `~/.ssh/config` file.
 
 ```
@@ -43,8 +46,6 @@ Host oct-build
 ```
 
 Replace `<host name>`, `<username>`, `<port>`, and `<private key>` with your own details. This setup also forwards port 5901 so you can use VNC if needed.
-
-![plot](images/bm-11.png)
 ![plot](images/bm-12.png)
 ![plot](images/bm-13.png)
 ![plot](images/bm-14.png)
