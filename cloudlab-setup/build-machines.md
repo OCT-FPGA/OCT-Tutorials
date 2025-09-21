@@ -6,8 +6,11 @@ Use the profile `oct-build` to spin up a build machine.
 ![plot](images/bm-1.png)
 Click Next.
 ![plot](images/bm-2.png)
+For the VM, choose the RAM, number of vCPUs, and the tool version. If you want to use VNC, enable the remote desktop option, and click Next.
 ![plot](images/bm-3.png)
+Enter a name for the experiment (optional), then click Next.
 ![plot](images/bm-4.png)
+When you click Finish, the CloudLab experiment will start.
 ![plot](images/bm-5.png)
 ![plot](images/bm-6.png)
 ![plot](images/bm-7.png)
