@@ -24,6 +24,8 @@ After that, the node will boot up.
 
 
 ![plot](images/bm-8.png)
+
+After the node finishes booting, the startup services will launch. This installs all the tools you need, including Xilinx Runtime and others required to build bitstreams, as well as any components needed for VNC access if you selected the remote desktop option when setting up the experiment.
 ![plot](images/bm-9.png)
 ![plot](images/bm-10.png)
 ![plot](images/bm-11.png)
