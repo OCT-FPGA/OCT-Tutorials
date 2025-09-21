@@ -25,9 +25,25 @@ After that, the node will boot up.
 
 ![plot](images/bm-8.png)
 
-After the node finishes booting, the startup services will launch. This installs all the tools you need, including Xilinx Runtime and others required to build bitstreams, as well as any components needed for VNC access if you selected the remote desktop option when setting up the experiment.
+After the node finishes booting, the startup services will launch. This installs all the tools you need, including Xilinx Runtime and others required to build bitstreams, as well as any components needed for VNC access if you selected the remote desktop option when setting up the experiment. Do not log into the node while the startup services are still running, as the setup is not complete.
 ![plot](images/bm-9.png)
+
+Once the startup services are complete, a checkmark will appear on the node icon. After that, you can log into the node. You’ll also see the SSH command you need to use to access it.
 ![plot](images/bm-10.png)
+
+Add this information to your `~/.ssh/config` file.
+
+```
+Host oct-build
+    HostName fpga-build2.cloudlab.umass.edu
+    User <username>
+    Port <port>
+    IdentityFile <private key>
+    LocalForward 5901 localhost:5901
+```
+
+Replace <username>, <port>, and <private key> with your own details. This setup also forwards port 5901 so you can use VNC if needed.
+
 ![plot](images/bm-11.png)
 ![plot](images/bm-12.png)
 ![plot](images/bm-13.png)
