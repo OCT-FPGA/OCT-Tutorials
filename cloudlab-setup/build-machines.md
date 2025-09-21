@@ -4,6 +4,7 @@ This guide explains how to allocate a build machine in OCT. These build machines
 
 Use the profile `oct-build` to spin up a build machine.
 ![plot](images/bm-1.png)
+Click Next.
 ![plot](images/bm-2.png)
 ![plot](images/bm-3.png)
 ![plot](images/bm-4.png)
