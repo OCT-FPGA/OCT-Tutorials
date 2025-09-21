@@ -82,7 +82,7 @@ To connect to your VNC server, enter the server address as:
 Here, localhost refers to your current machine (or the machine you’re SSH-tunneling to), and 5901 is the port number for the VNC session.
 ![plot](images/bm-13.png)
 
-Then in your VNC client, double-click the entry (or press “Connect” depending on your client) to initiate the connection.
+Then in your VNC client, double-click the entry (or press "Connect" depending on your client) to initiate the connection.
 ![plot](images/bm-14.png)
 
 
