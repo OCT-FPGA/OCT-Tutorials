@@ -2,6 +2,12 @@
 
 This guide explains how to allocate a build machine in OCT. These build machines are preconfigured with **Xilinx Vitis** and **Vivado**, so you can compile and build FPGA projects without needing to install the tools yourself.  
 
+
+## Prerequisites
+You must have a CloudLab account. If you don’t already have one, please follow the instructions [here](README.md) to create an account and join the OCT project.
+
+## Steps
+
 Use the profile `oct-build` to spin up a build machine.
 ![plot](images/bm-1.png)
 Click Next.
