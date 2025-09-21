@@ -55,6 +55,10 @@ On the build machine, run the following command to start a VNC server instance (
 
 Use any VNC client, such as [RealVNC](https://www.realvnc.com), to connect to the VNC server.
 
+Open the VNC Viewer, and goto File &#8594; New connection... to create a new connection.
+
+![plot](images/mac_vnc1.png)
+
 ![plot](images/bm-13.png)
 
 
