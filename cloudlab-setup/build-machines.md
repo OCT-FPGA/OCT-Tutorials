@@ -51,6 +51,10 @@ After updating your `~/.ssh/config`, connect to the build machine by running `ss
 
 On the build machine, run the following command to start a VNC server instance (only if you selected remote desktop access when setting up the experiment).
 
+`vncserver -localhost no -geometry 1920x1080`
+
+You can set your preferred resolution by replacing 1920x1080 with your desired width and height when running the VNC server command.
+
 ![plot](images/bm-12.png)
 
 Use any VNC client, such as [RealVNC](https://www.realvnc.com), to connect to the VNC server.
