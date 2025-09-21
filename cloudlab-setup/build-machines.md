@@ -53,12 +53,12 @@ On the build machine, run the following command to start a VNC server instance (
 
 ![plot](images/bm-12.png)
 
+Use any VNC client, such as [RealVNC](https://www.realvnc.com), to connect to the VNC server.
 
 ![plot](images/bm-13.png)
 
 
 ![plot](images/bm-14.png)
 
-Use any VNC client, such as [RealVNC](https://www.realvnc.com), to connect to the VNC server.
 
 ![plot](images/bm-15.png)
