@@ -66,6 +66,10 @@ Open the VNC Viewer, and goto File &#8594; New connection... to create a new con
 Enter a name for your VNC connection.
 ![plot](images/mac_vnc2.png)
 
+To access the connection properties, right-click the connection icon and then click Properties.
+![plot](images/mac_vnc3.png)
+
+
 ![plot](images/bm-13.png)
 
 
