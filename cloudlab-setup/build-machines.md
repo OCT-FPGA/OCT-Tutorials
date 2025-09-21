@@ -35,14 +35,14 @@ Add this information to your `~/.ssh/config` file.
 
 ```
 Host oct-build
-    HostName fpga-build2.cloudlab.umass.edu
-    User <username>
+    HostName <host name>
+    User <user name>
     Port <port>
     IdentityFile <private key>
     LocalForward 5901 localhost:5901
 ```
 
-Replace <username>, <port>, and <private key> with your own details. This setup also forwards port 5901 so you can use VNC if needed.
+Replace `<host name>`, `<username>`, `<port>`, and `<private key>` with your own details. This setup also forwards port 5901 so you can use VNC if needed.
 
 ![plot](images/bm-11.png)
 ![plot](images/bm-12.png)
