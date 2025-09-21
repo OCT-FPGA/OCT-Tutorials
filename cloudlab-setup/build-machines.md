@@ -63,6 +63,9 @@ Open the VNC Viewer, and goto File &#8594; New connection... to create a new con
 
 ![plot](images/mac_vnc1.png)
 
+Enter a name for your VNC connection.
+![plot](images/mac_vnc2.png)
+
 ![plot](images/bm-13.png)
 
 
