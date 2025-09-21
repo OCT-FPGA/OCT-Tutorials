@@ -69,7 +69,11 @@ Enter a name for your VNC connection.
 To access the connection properties, right-click the connection icon and then click Properties.
 ![plot](images/mac_vnc3.png)
 
+To connect to your VNC server, enter the server address as:
 
+`localhost:5901`
+
+Here, localhost refers to your current machine (or the machine you’re SSH-tunneling to), and 5901 is the port number for the VNC session.
 ![plot](images/bm-13.png)
 
 
