@@ -47,6 +47,13 @@ Host oct-build
 
 Replace `<host name>`, `<username>`, `<port>`, and `<private key>` with your own details. This setup also forwards port 5901 so you can use VNC if needed.
 ![plot](images/bm-12.png)
+
+After updating your `~/.ssh/config`, connect to the build machine by running `ssh oct-build`.
 ![plot](images/bm-13.png)
+
+On the build machine, run the following command to start a VNC server instance (only if you selected remote desktop access when setting up the experiment).
 ![plot](images/bm-14.png)
+
+Use any VNC client, such as [RealVNC](https://www.realvnc.com), to connect to the VNC server.
+
 ![plot](images/bm-15.png)
