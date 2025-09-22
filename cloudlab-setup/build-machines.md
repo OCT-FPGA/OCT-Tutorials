@@ -51,7 +51,7 @@ Host oct-build
     LocalForward 5901 localhost:5901
 ```
 
-Replace `<host name>`, `<username>`, `<port>`, and `<private key>` with your own details. This setup also forwards port 5901 so you can use VNC if needed.
+`<host name>` refers to the server name shown in the SSH command provided by CloudLab, for example `fpga-build2.cloudlab.umass.edu`. Replace `<username>`, `<port>`, and `<private key>` with your own details. This setup also forwards port 5901 so you can use VNC if needed.
 
 After updating your `~/.ssh/config`, connect to the build machine by running `ssh oct-build`.
 
