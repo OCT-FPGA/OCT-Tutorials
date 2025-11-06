@@ -28,7 +28,7 @@ As an existing user, you should already have a key-pair which you need to remote
 
 ![plot](images/existing-account_3.png)
 
-and entering your public key. Steps on how to create an SSH key-pair can be found [here](/managing-keys/setup-keys.md).
+and entering your public key. Steps on how to create an SSH key-pair can be found [here](https://docs.cloudlab.us/users.html#(part._ssh-access).
 
 ![plot](images/existing-account_4.png)
 
