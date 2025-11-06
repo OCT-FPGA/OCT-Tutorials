@@ -25,6 +25,18 @@ All nodes are equipped with 40 GbE regular NICs. In addition, pc160–pc163 also
 
 We have created the CloudLab profiles ```oct-u280```, ```oct-vck5000```, and ```oct-v70``` to help users select nodes with the specific resources they need. You can find instructions for using CloudLab for OCT experiments [here](https://github.com/OCT-FPGA/OCT-Tutorials/tree/master/cloudlab-setup).
 
+## Requesting Accounts
+
+[Requesting Access to OCT](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/accounts.md)
+
+## Getting Started with Build Machines
+
+[Allocating a Build Machine in OCT](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/build-machines.md)
+
+## Getting Started with FPGAs
+
+[Getting Started with FPGAs in OCT](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/fpgas.md)
+
 ## U280 Tutorials
 
 [Vector Addition](https://github.com/OCT-FPGA/Vitis-Tutorials-U280/tree/2022.2/VitisAccelHelloWorld)
