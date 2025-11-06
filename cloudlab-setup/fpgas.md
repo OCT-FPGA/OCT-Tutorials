@@ -1,43 +1,5 @@
 # Getting Started with FPGAs in OCT
 
-The CloudLab UMass cluster includes 24 AMD Alveo U280 FPGAs. You need to create a CloudLab experiment to access any of these FPGAs. An experiment will give you access to a bare-metal node. By using an experiment profile, you can configure this node so that it will have the tools required to access the FPGA.  If you are not familiar with the CloudLab experiment workflow, it is strongly recommended to refer to [The CloudLab Manual](http://docs.cloudlab.us/) before getting started.
-
-## 1. Set up a Cloudlab project
-
-If you already have a CloudLab account, skip to Section 1.2.
-
-### 1.1 New users
-
-Go to [cloudlab.us](https://cloudlab.us) and click Request an Account.
-
-![plot](images/new_account_1.png)
-
-Enter your details. You need to provide an SSH public key. Make sure you have access to the corresponding private key which you will need to log in to the Cloudlab server. For specific instructions on how to create a key-pair and access your CloudLab node using either MOC or your home/work computer, please refer to [this tutorial](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/managing-keys/setup-keys.md). Select Join Existing Project, enter ```OCTFPGA``` and submit the request.
-
-![plot](images/new_account_2.png)
-
-The account approval process could take a couple of days. Once you got the approval, go to step 2.
-
-### 1.2. Existing users
-
-If you already have a Cloudlab account, first log into your account and select Start/Join Project.
-
-![plot](images/existing-account_1.png)
-
-Enter the project name ```OCTFPGA``` and click Submit Request.
-
-![plot](images/existing-account_2.png)
-
-As an existing user, you should already have a key-pair which you need to remotely access a CloudLab node. If you need to upload a different public key, you may do so by going to "your user name" &#8594; Manage SSH Keys,
-
-![plot](images/existing-account_3.png)
-
-and entering your public key. Steps on how to create an SSH key-pair can be found [here](/managing-keys/setup-keys.md).
-
-![plot](images/existing-account_4.png)
-
-## 2. Start an experiment
-
 Note: Before you start an experiment, make sure that your default shell is set to bash. To do this, click on your name in the upper right, select Manage Account, and then set the Default Shell to bash and click Save.
 
 ![plot](images/manage_account.png)
