@@ -3,9 +3,7 @@
 The Open Cloud Testbed (OCT) workflow consists of two parts.
 
 **1. Development:** 
-OCT development tools are hosted on a virtual machine (VM) in New England Research Cloud (NERC). Users can remotely log into this VM and build FPGA bitstreams/host executables using the tools installed on the VM. Alternatively, users may use their own build machine if they prefer to do so. In this case, they will have to install Xilinx Vitis and runtime tools on their machine.
-
-If you’d like to use the build machines we provide, please follow [these instructions](https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/nercsetup/nerc-vm-guide.md#nerc-vm-user-guide).
+OCT development tools are available on build machines that can be allocated as virtual machines (VMs) within a CloudLab experiment. Users can remotely log in to these VMs to build FPGA bitstreams and host executables.
 
 **2. Deployment:**
 After creating the bitstreams/host executables, users will use CloudLab for targeting. OCT currently consists of 24 AMD Alveo U280s, 4 AMD VCK5000s, 4 AMD V70s, and 2 NVIDIA V100 GPUs. The U280s and VCK5000s are connected to 100 GbE data center switches using QSFP28 passive DAC cables. 
