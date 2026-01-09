@@ -1,4 +1,4 @@
-# Getting started with building bitstreams on OCT
+# Getting started with building P4 bitstreams on OCT
 
 Some initial setup is required on OCT machines before building bitstreams as mentioned in [P4Framework](https://github.com/OCT-FPGA/P4Framework/tree/master).
 
