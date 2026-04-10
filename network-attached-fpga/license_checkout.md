@@ -3,7 +3,7 @@
 Before you start to build the bitstream, run the following command.
 
 ```bash
-export XILINXD_LICENSE_FILE=2100@xilinxlm
+export XILINXD_LICENSE_FILE=2100@octlm
 ```
 To verify that the license is checked out, run ```vlm``` and see if the CMAC license is present.
 
