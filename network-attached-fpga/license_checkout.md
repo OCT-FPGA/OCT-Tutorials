@@ -1,13 +1,12 @@
 # How to Check Out Xilinx Floating License for CMAC
 
-Before you start to build the bitstream, run the following command.
+Run the following command before starting the build process.
 
 ```bash
 export XILINXD_LICENSE_FILE=2100@octlm
 ```
-To verify that the license is checked out, run ```vlm``` and see if the CMAC license is present.
+To verify that the license is checked out, run ```vlm```and check if the CMAC license is present.
 
 ![plot](vlm.png)
 
-If you see the license ```cmac_usplus```, you can close Vivado license manager and proceed to build the bitstream.
-
+When the `cmac_usplus` license appears, close the Vivado License Manager and proceed to build the project.
