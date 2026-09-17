@@ -20,6 +20,8 @@ Click Next.
 
 You can customize the experiment by parameterizing the setup. Enter the name of the required node, a tool version, and the OS from the list of options. For the workflow, choose Vitis if you plan to use the Vitis application acceleration workflow. If you plan to use the traditional flow, choose Vivado.
 
+Note: If planning to use multiple nodes, enter each node separated by a comma with no spaces between them (for example: pc155,pc156).
+
 ![plot](images/pb-2_1.png)
 
 Optionally, enter a name for the experiment and click Next.
@@ -48,7 +50,7 @@ After the script finishes running, the icon status will change to ```Finished```
 
 ![plot](images/pb-8.png)
 
-Switch to the List View tab. Now you will see the SSH command that you can use to connect to this server. Use any SSH client to connect to the node. Alternatively you can select the Shell option in the UI which will open a built-in shell.
+Switch to the List View tab. Now you will see the SSH command that you can use to connect to this server. Use any SSH client to connect to the node. Alternatively, you can select the Shell option in the UI which will open a built-in shell.
 
 ![plot](images/pb-9.png)
 
