@@ -7,6 +7,6 @@ export XILINXD_LICENSE_FILE=2100@octlm
 ```
 To verify that the license is checked out, run ```vlm```and check if the CMAC license is present.
 
-![plot](vlm.png)
+![plot](vlm1.png)
 
 When the `cmac_usplus` license appears, close the Vivado License Manager and proceed to build the project.
