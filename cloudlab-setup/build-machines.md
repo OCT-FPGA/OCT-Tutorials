@@ -31,10 +31,10 @@ After that, the node will boot up.
 After the node finishes booting, the startup services will launch. This installs all the tools you need, including Xilinx Runtime and others required to build bitstreams, as well as any components needed for VNC access if you selected the remote desktop option when setting up the experiment. Do not log into the node while the startup services are still running, as the setup is not complete.
 ![plot](images/bm-9_1.png)
 
-Once the startup services are complete, a checkmark will appear on the node icon. After that, you can log into the node. You’ll also see the SSH command you need to use to access it.
+Once the startup services are complete, a checkmark will appear on the node icon. After that, you can log into the node. 
 ![plot](images/bm-10.png)
 
-
+You’ll also see the SSH command you need to use to access it.
 ![plot](images/bm-11.png)
 
 Add this information to your `~/.ssh/config` file.
