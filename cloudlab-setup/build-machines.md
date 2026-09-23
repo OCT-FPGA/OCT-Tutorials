@@ -34,8 +34,8 @@ After the node finishes booting, the startup services will launch. This installs
 Once the startup services are complete, a checkmark will appear on the node icon. After that, you can log into the node. 
 ![plot](images/bm-10.png)
 
-You’ll also see the SSH command you need to use to access it.
-![plot](images/bm-11.png)
+Switch to List View, and you'll see the SSH command needed to access the build machine.
+![plot](images/bm-11_1.png)
 
 Add this information to your `~/.ssh/config` file.
 
