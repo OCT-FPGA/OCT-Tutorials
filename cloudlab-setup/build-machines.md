@@ -37,7 +37,7 @@ Once the startup services are complete, a checkmark will appear on the node icon
 Switch to List View, and you'll see the SSH command needed to access the build machine.
 ![plot](images/bm-11_1.png)
 
-Add this information to your `~/.ssh/config` file.
+Add this information to your `~/.ssh/config` file on your local machine.
 
 ```
 Host oct-build
