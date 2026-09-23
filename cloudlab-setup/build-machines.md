@@ -38,7 +38,7 @@ Switch to List View, and you'll see the SSH command needed to access the build m
 ![plot](images/bm-11_1.png)
 
 
-Add the login information along with your CloudLab `<user name>` and `<private key>` into the `~/.ssh/config` file on the local machine. `<host name>` is the server name given in the SSH command. In this example, it is `fpga-build2.cloudlab.umass.edu`. `port` is the SSH port number used for the connection, which is 25010 in this example.  The line `LocalForward 5901 localhost:5901` forwards traffic sent to port 5901 on the local machine through the SSH tunnel to port 5901 on the remote server, which is required for establishing a VNC session.
+Add the login information along with your CloudLab `<user name>` and `<private key>` into the `~/.ssh/config` file on the local machine. `<host name>` is the server name given in the SSH command. In this example, it is `fpga-build2.cloudlab.umass.edu`. `port` is the SSH port number used for the connection, which is 25010 in this example.  The line `LocalForward 5901 localhost:5901` forwards traffic sent to port 5901 on the local machine through the SSH tunnel to port 5901 on the remote server (build machine), which is required for establishing a VNC session.
 
 ```
 Host oct-build
