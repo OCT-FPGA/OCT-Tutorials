@@ -17,7 +17,7 @@ For the VM, choose the RAM, number of vCPUs, and the tool version. If you want t
 ![plot](images/bm-3.png)
 
 Enter a name for the experiment (optional), then click Next.
-![plot](images/bm-4.png)
+![plot](images/bm-4_1.png)
 
 When you click Finish, the CloudLab experiment will start.
 ![plot](images/bm-5.png)
