@@ -83,3 +83,7 @@ Then in your VNC client, double-click the entry (or press "Connect" depending on
 
 
 ![plot](images/bm-15.png)
+
+Type terminal in the search bar to open a terminal. If you don't see the search bar, click Activities in the top-left corner.
+
+![plot](images/bm-16.png)
