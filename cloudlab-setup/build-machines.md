@@ -4,7 +4,7 @@ This guide explains how to allocate a build machine in OCT. These build machines
 
 
 ## Prerequisites
-You must have a CloudLab account. If you don’t already have one, please follow the instructions [here](cloudlab-setup/accounts.md) to create an account and join the OCT project.
+You must have a CloudLab account. If you don’t already have one, please follow the instructions [here](accounts.md) to create an account and join the OCT project.
 
 ## Steps
 
